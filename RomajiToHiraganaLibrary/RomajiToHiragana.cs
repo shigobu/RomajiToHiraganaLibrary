@@ -1,5 +1,8 @@
 ﻿namespace RomajiToHiraganaLibrary
 {
+    /// <summary>
+    /// ローマ字とからひらがなへ置換する関数を提供します
+    /// </summary>
     public static class RomajiToHiragana
     {
         private static readonly RomajiHiraganaPair[] romajiHiraganaPairs = {
