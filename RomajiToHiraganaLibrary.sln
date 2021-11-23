@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomajiToHiraganaLibrary", "RomajiToHiraganaLibrary\RomajiToHiraganaLibrary.csproj", "{6E624DF3-1855-4CC6-91F0-9EB871CF5851}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomajiToHiraganaLibrary", "RomajiToHiraganaLibrary\RomajiToHiraganaLibrary.csproj", "{6E624DF3-1855-4CC6-91F0-9EB871CF5851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{94912461-C704-485B-9489-D9D049482883}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6E624DF3-1855-4CC6-91F0-9EB871CF5851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E624DF3-1855-4CC6-91F0-9EB871CF5851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E624DF3-1855-4CC6-91F0-9EB871CF5851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94912461-C704-485B-9489-D9D049482883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94912461-C704-485B-9489-D9D049482883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94912461-C704-485B-9489-D9D049482883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94912461-C704-485B-9489-D9D049482883}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

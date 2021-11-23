@@ -1,8 +1,8 @@
 ﻿namespace RomajiToHiraganaLibrary
 {
-    internal static class RomajiToHiragana
+    public static class RomajiToHiragana
     {
-        static readonly RomajiHiraganaPair[] romajiHiraganaPairs = {
+        private static readonly RomajiHiraganaPair[] romajiHiraganaPairs = {
             new RomajiHiraganaPair("a", "あ"),
             new RomajiHiraganaPair("la", "ぁ"),
             new RomajiHiraganaPair("xa", "ぁ"),
