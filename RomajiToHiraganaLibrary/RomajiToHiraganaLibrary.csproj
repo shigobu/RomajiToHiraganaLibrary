@@ -7,6 +7,18 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Copyright>© shigobu</Copyright>
+    <PackageProjectUrl>https://github.com/shigobu/RomajiToHiraganaLibrary</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE" Pack="true" PackagePath=""/>
+  </ItemGroup>
 
 </Project>
