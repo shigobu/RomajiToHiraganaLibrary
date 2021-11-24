@@ -1,4 +1,6 @@
-﻿namespace RomajiToHiraganaLibrary
+﻿using System;
+
+namespace RomajiToHiraganaLibrary
 {
     class RomajiHiraganaPair
     {

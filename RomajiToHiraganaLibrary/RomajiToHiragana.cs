@@ -1,4 +1,6 @@
-﻿namespace RomajiToHiraganaLibrary
+﻿using System.Linq;
+
+namespace RomajiToHiraganaLibrary
 {
     /// <summary>
     /// ローマ字とからひらがなへ置換する関数を提供します

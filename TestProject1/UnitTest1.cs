@@ -9,7 +9,7 @@ namespace TestProject1
         public void TestMethod1()
         {
             string temp = RomajiToHiraganaLibrary.RomajiToHiragana.Convert("shigobu");
-            Assert.AreEqual(temp, "‚µ‚²‚Ô", "ƒ[ƒ}š’uŠ·¸”s");
+            Assert.AreEqual(temp, "ã—ã”ã¶", "ãƒ­ãƒ¼ãƒå­—ç½®æ›å¤±æ•—");
         }
     }
 }
