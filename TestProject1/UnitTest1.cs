@@ -10,6 +10,8 @@ namespace TestProject1
         {
             string temp = RomajiToHiraganaLibrary.RomajiToHiragana.Convert("shigobu");
             Assert.AreEqual(temp, "しごぶ", "ローマ字置換失敗");
+            temp = RomajiToHiraganaLibrary.RomajiToHiragana.Convert("konnnitiwa");
+            Assert.AreEqual(temp, "こんにちわ", "ローマ字置換失敗");
         }
     }
 }
