@@ -6,12 +6,15 @@ namespace TestProject1
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        [DataRow("Shigobu", "しごぶ")]
+        [DataRow("konnnitiwa", "こんにちわ")]
+        [DataRow("しごぶShigobu", "しごぶしごぶ")]
+        [DataRow("こんにちわkonnnitiwa", "こんにちわこんにちわ")]
+        [DataRow("やゆよ", "やゆよ")]
+        public void TestMethod1(string romaji, string hiragana)
         {
-            string temp = RomajiToHiraganaLibrary.RomajiToHiragana.Convert("shigobu");
-            Assert.AreEqual(temp, "しごぶ", "ローマ字置換失敗");
-            temp = RomajiToHiraganaLibrary.RomajiToHiragana.Convert("konnnitiwa");
-            Assert.AreEqual(temp, "こんにちわ", "ローマ字置換失敗");
+            string temp = RomajiToHiraganaLibrary.RomajiToHiragana.Convert(romaji);
+            Assert.AreEqual(temp, hiragana, "ローマ字置換失敗");
         }
     }
 }
