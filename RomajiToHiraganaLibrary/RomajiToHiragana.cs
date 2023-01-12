@@ -547,7 +547,7 @@ namespace RomajiToHiraganaLibrary
             string temp = sentence;
             foreach (var romajiHiraganaPair in dictionary)
             {
-                temp = temp.Replace(romajiHiraganaPair.Romaji, romajiHiraganaPair.Hiragana);
+                temp = temp.ToLowerInvariant().Replace(romajiHiraganaPair.Romaji, romajiHiraganaPair.Hiragana);
             }
 
             return temp;
